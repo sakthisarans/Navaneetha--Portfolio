@@ -1,0 +1,9 @@
+tunnel: 025039c8-90fc-40fb-9368-5640530704d9
+credentials-file: /etc/cloudflared/025039c8-90fc-40fb-9368-5640530704d9.json
+
+ingress:
+  - hostname: www.navaneetha.site
+    service: http://localhost:80
+  - hostname: navaneetha.site
+    service: http://localhost:80
+  - service: http_status:404
