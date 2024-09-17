@@ -9,7 +9,7 @@ COPY cloudflare /etc/cloudflared/
 RUN dpkg -i ./cloudflared-linux-arm64.deb
 WORKDIR /var/www/html
 COPY . /var/www/html
-RUN rm -rf cloudflare
+# RUN rm -rf cloudflare
 EXPOSE 80
 
 
