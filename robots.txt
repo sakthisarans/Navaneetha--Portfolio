@@ -32,4 +32,4 @@ User-agent: ia_archiver/v3.9
 Disallow: 
 User-agent: *
 Disallow: 
-Sitemap: https://www.navaneetha.site/
+Sitemap: https://www.navaneetha.site
